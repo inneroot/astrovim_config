@@ -25,4 +25,7 @@ return {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
   },
+  v = {
+   ["<leader>p"] = { "\"_dP", desc = "paste w/o copy deleted" }
+  }
 }
