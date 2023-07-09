@@ -6,10 +6,12 @@ return {
 
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.pack.angular" },
-  { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.typescript-all-in-one" },
+  { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.json" },
+  { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.pack.rust" },
   {
     "loctvl842/monokai-pro.nvim",
