@@ -31,4 +31,9 @@ return {
     ["<leader>p"] = { '"_dP', desc = "paste w/o copy deleted" },
     ["<leader>r"] = { ":SnipRun<cr>", desc = "run highlited code" },
   },
+  i = {
+    -- signature help, fails silently so attach always
+    ["<C-l>"] = { function() vim.lsp.buf.signature_help() end, desc = "Signature help" },
+    ["<S-Tab>"] = { "<C-V><Tab>", desc = "Tab character" },
+  },
 }
