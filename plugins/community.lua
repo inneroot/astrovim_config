@@ -15,4 +15,5 @@ return {
   { import = "astrocommunity.git.git-blame-nvim" },
   { import = "astrocommunity.code-runner.sniprun" }, -- Visual Mode select :SnipRun
   { import = "astrocommunity.color.vim-highlighter" }, -- NormalMode HiSet 'f<CR>' HiErase 'f<BS>' HiClear 'f<C-L>' HiFind  'f<Tab>' HiSetSL 't<CR>'
+  { import = "astrocommunity.utility.transparent-nvim" },
 }
