@@ -24,6 +24,10 @@ return {
     ["<C-s>"] = { ":w!<cr>", desc = "Save File" }, -- change description but the same command
     ["<C-u>"] = { "<C-u>zz" },
     ["<C-d>"] = { "<C-d>zz" },
+    --["<C-h>"] = { "<cmd>TmuxNavigateLeft<cr>", "window left" },
+    --["<C-l>"] = { "<cmd>TmuxNavigateRight<cr>", "window right" },
+    --["<C-j>"] = { "<cmd>TmuxNavigateDown<cr>", "window down" },
+    --["<C-k>"] = { "<cmd>TmuxNavigateUp<cr>", "window up" },
   },
   t = {
     -- setting a mapping to false will disable it
